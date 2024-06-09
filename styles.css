@@ -6,15 +6,30 @@ body {
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
-  margin:  5%;
+  margin: 5%;
   color: #FEF2BF;
+}
+
+#start-button {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  color: #011F3F;
+  background-color: #FEF2BF;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#start-button:hover {
+  background-color: #FFD700;
 }
 
 .container {
   display: block;
   width: 50%;
   margin: auto;
-
 }
 
 .btn {
